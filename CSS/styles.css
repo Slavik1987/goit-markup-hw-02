@@ -5,14 +5,88 @@ Common styless
 */
 
 
-
 /*
 ==================
 Heder styless
 ==================
 */
+.page 
+{
+
+}
+
+.header 
+{
+
+}
+
+.Header-nav
+
+{
+
+}
+/*logo styless start*/
+.logo
+{
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.web
+{
+    color: #4D5AE5;
+
+}
+.studio-dark
+{
+    color: #2E2F42;
+
+}
+.studio-light
+{
+    color: #F4F4FD;
+
+}
+
+/*logo styless end*/
+.header-ul-li
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2E2F42;
+}
+.address
+{
+font-style: normal;
+}
+.address-link:hover,
+.address-link:focus
+{
+   
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        
 
 
+}
+.button
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+}
 
 
 
@@ -22,3 +96,136 @@ Hero styless
 ==================
 */
 
+
+.main 
+{
+
+}
+
+.section 
+{
+
+}
+.section hero
+{
+    
+        position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 72px;
+        
+}
+        
+
+        
+.Solutions
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color: #FFFFFF;
+}
+.hero 
+{
+
+}
+
+.one 
+{
+
+}
+
+.two 
+{
+
+}
+
+
+.three 
+{
+
+}
+/*
+==================
+section
+==================
+*/
+
+.class list
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2E2F42;
+}
+
+.class pages 
+{
+       font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #434455;
+
+}
+.made
+{
+       font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: #2E2F42;
+}
+.team
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: #2E2F42;
+}
+.name
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2E2F42;
+}
+.profession
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #434455;
+}
+
+/*
+==================
+footer section
+==================
+*/
+.footer 
+{
+
+}
+.Increase
+{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F4F4FD;
+}
