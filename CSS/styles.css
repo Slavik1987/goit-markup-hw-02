@@ -154,7 +154,7 @@ section
 ==================
 */
 
-.class list
+.overview
 {
         font-family: 'Roboto';
         font-style: normal;
@@ -164,16 +164,7 @@ section
         color: #2E2F42;
 }
 
-.class pages 
-{
-       font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #434455;
 
-}
 .made
 {
        font-family: 'Roboto';
@@ -181,6 +172,10 @@ section
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        line-height: 1.11
+        text-transform: capitalize;
         color: #2E2F42;
 }
 .team
