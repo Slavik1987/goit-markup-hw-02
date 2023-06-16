@@ -5,14 +5,14 @@ Common styless
 */
 :root
 {
-        color: #434455 ;
-        background-color:#ffffff;
-        
 
 }
 .body
 {
         font-family: "Roboto", sans-serif,
+        color: #434455;
+        background-color: #ffffff;
+        
  
 
         
@@ -36,7 +36,7 @@ Heder styless
         width: 44px;
         height: 21px;
         
-        font-family: 'Raleway';
+        font-family: "Raleway", sans-serif,
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -61,11 +61,11 @@ Heder styless
         width: 71px;
         height: 21px;
         
-        font-family: 'Raleway';
+        font-family: "Raleway", sans-serif,
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
                 /* identical to box height, or 117% */
         
         display: flex;
