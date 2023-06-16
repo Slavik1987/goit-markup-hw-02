@@ -3,7 +3,20 @@
 Common styless
 ==================
 */
+:root
+{
+        color: #434455 ;
+        background-color:#ffffff;
+        
 
+}
+.body
+{
+        font-family: "Roboto", sans-serif,
+ 
+
+        
+}
 
 /*
 ==================
@@ -12,6 +25,7 @@ Heder styless
 */
 
 /*logo styless start*/
+
 .logo
 {
 
