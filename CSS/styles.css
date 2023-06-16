@@ -14,25 +14,61 @@ Heder styless
 /*logo styless start*/
 .logo
 {
-        font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        line-height: 1.17px;
+
 }
         
 .studio-main
 {
+        width: 44px;
+        height: 21px;
         
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+                /* identical to box height, or 117% */
         
-       color: #4D5AE5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+                /* IRIS */
+        
+        color: #4D5AE5;
+        
+       
 
 }
 .studio-dark
 {   
        
+        width: 71px;
+        height: 21px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+                /* identical to box height, or 117% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+                /* NAVY BLUE */
+        
         color: #2E2F42;
+        
+        
+                /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
 
 }
 .studio-light
@@ -42,7 +78,28 @@ Heder styless
 }
 
 
-.header-ul-li
+.header-ul-li:hover,
+{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 20px;
+top: 20px;
+
+/* IRIS */
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.header-ul-li:focus
+
 {
         font-family: 'Roboto';
         font-style: normal;
@@ -50,6 +107,7 @@ Heder styless
         font-size: 16px;
         line-height: 24px;
         color: #2E2F42;
+       
 }
 .address
 {
@@ -67,8 +125,9 @@ font-style: normal;
 
 
 }
-.Solutions
+.solutions
 {
+        position: absolute;
         width: 496px;
         height: 120px;
         left: 472px;
@@ -79,34 +138,71 @@ font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 60px;
-         
+                
+        
         text-align: center;
         letter-spacing: 0.02em;
         
-        
+          
         color: #FFFFFF;
 }
-.button:hover,
-.button:focus
+.button
 {
-        
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 16px 32px;
         gap: 10px;
-
-        position: absolute;
+        
+                
         width: 169px;
         height: 56px;
-        left: 636px;
-        top: 428px;
-
-        /* IRIS */
-
+        left: 20px;
+        top: 20px;
+        
         background: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+
+}
+.button:hover,
+.button:focus
+{
+        
+        position: absolute;
+        width: 169px;
+        height: 56px;
+        left: 20px;
+        top: 88px;
+        
+                
+        background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.settings-order
+{
+        width: 105px;
+        height: 24px;
+        
+  /
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        
+        color: #FFFFFF;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 }
 
 .section-hero
