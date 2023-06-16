@@ -14,29 +14,24 @@ Heder styless
 /*logo styless start*/
 .logo
 {
-
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        line-height: 1.17px;
 }
         
 .studio-main
 {
         
-        font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        line-height: 1.17px;
+        
        color: #4D5AE5;
 
 }
 .studio-dark
 {   
-        font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        line-height: 1.17px;
+       
         color: #2E2F42;
 
 }
@@ -46,7 +41,7 @@ Heder styless
 
 }
 
-/*logo styless end*/
+
 .header-ul-li
 {
         font-family: 'Roboto';
@@ -72,15 +67,57 @@ font-style: normal;
 
 
 }
-.button
+.Solutions
 {
+        width: 496px;
+        height: 120px;
+        left: 472px;
+        top: 260px;
+        
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+         
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        
         color: #FFFFFF;
+}
+.button:hover,
+.button:focus
+{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
 
+        position: absolute;
+        width: 169px;
+        height: 56px;
+        left: 636px;
+        top: 428px;
+
+        /* IRIS */
+
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
+.section-hero
+{
+       
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 72px;
+        
+        background: #2E2F42;
 }
 
 
@@ -90,48 +127,7 @@ font-style: normal;
 Hero styless
 ==================
 */
-
-
-.main 
-{
-
-}
-
-.section 
-{
-
-}
-.section hero
-{
-    
-        position: absolute;
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 72px;
-        
-}
-        
-
-        
-.Solutions
-{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 60px;
-        color: #FFFFFF;
-}
-
-/*
-==================
-section
-==================
-*/
-
-.overview
-{
+.overview {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -141,21 +137,19 @@ section
 }
 
 
-.made
-{
-       font-family: 'Roboto';
+.made {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
         text-align: center;
         letter-spacing: 0.02em;
-        line-height: 1.11
-        text-transform: capitalize;
+        line-height: 1.11 text-transform: capitalize;
         color: #2E2F42;
 }
-.team
-{
+
+.team {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -163,8 +157,8 @@ section
         line-height: 40px;
         color: #2E2F42;
 }
-.name
-{
+
+.name {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -172,8 +166,8 @@ section
         line-height: 24px;
         color: #2E2F42;
 }
-.profession
-{
+
+.profession {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -182,61 +176,185 @@ section
         color: #434455;
 
 }
+
+
 /*
 ==================
-section portfolio
+section
 ==================
 */
-.style-color
+
+.style-color:hover,
+.style-color:focus
 {
-       
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 12px 24px;
+        
         width: 69px;
         height: 48px;
-
+        
         background: #404BBF;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
-        
-        
-
 }
-.Web-Site
+.Web-Site:hover,
+.Web-Site:focus
 {
         box-sizing: border-box;
-
+        
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        
+        width: 116px;
+        height: 48px;
+        
+        background: #F4F4FD;
+               
+        
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        
+           
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.Apppp:hover,
+.Apppp:focus
+{
+        box-sizing: border-box;
+        
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 12px 24px;
-
-        width: 116px;
+        
+        width: 78px;
         height: 48px;
-
+        
+        
         background: #F4F4FD;
        
+        
         border: 1px solid #E7E9FC;
         border-radius: 4px;
+        
+       
+        flex: none;
+        order: 2;
+        flex-grow: 0;
 }
+.Design:hover,
+.Design:focus
+{
 
+        box-sizing: border-box;
+        
+        
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        
+        width: 101px;
+        height: 48px;
+        
+        
+        background: #F4F4FD;
+                
+        
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        
+          
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+}
+.Marketing:hover,
+.Marketing:focus
+{
 
+        box-sizing: border-box;
+        
+
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        
+        width: 126px;
+        height: 48px;
+        
+        background: #F4F4FD;
+                
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+
+}
+.storis
+{
+        width: 290px;
+        height: 24px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+              
+        letter-spacing: 0.02em;
+        
+        color: #2E2F42;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.discraibe
+{
+        width: 75px;
+        height: 24px;
+        
+         font-family: 'Roboto';
+         font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        letter-spacing: 0.02em;
+
+        color: #434455;
+        
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
 /*
 ==================
-footer section
+section portfolio
 ==================
 */
-.footer 
-{
+.footer {
         position: absolute;
         background: #2E2F42;
 
 }
-.Increase
-{
+
+.Increase {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -244,3 +362,8 @@ footer section
         line-height: 24px;
         color: #F4F4FD;
 }
+/*
+==================
+footer section
+==================
+*/
