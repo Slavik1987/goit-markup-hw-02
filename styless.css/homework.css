@@ -5,218 +5,55 @@ Common styless
 */
 :root
 {
-
+        --color1:#434455;
+        --color2: #FFFFFF;
+        --color3:#4D5AE5;
+        --color4:#2E2F42;
 }
 
 .body
 {
-      
-        
- 
+        font-family: 'Roboto',sans-serif;
+        color: #434455;
+        background-color:#FFFFFF;
 
-        
+
+       
+
 }
-
 /*
 ==================
 Heder styless
 ==================
 */
-.logo
-{
-        Font family: Raleway;
-Font style: ExtraBold;
-Font size: 18px;
-Line height: 21px;
-Line height: 99%;
-Align: Left;
-Vertical align: Center;
-Letter spacing: 3%;
-color: #4D5AE5;
 
-}
-
-.studio-dark{
-
-color:#2E2F42;
-
-}
-.deskmasenger:hover,
-.deskmasenger:focus
-
-{
-Text style: Body Medium;
-Font family: Roboto;
-Font style: Medium;
-Font size: 16px;
-Line height: 24px;
-Line height: 128%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 2%;
-Fill Color Style: NAVY BLUE;
-Fill: Solid;
-color:#2E2F42;
-
-}
-.address-link:hover,
-.address-link:focus
+.Header-nav
 {
 
-Text style: Body;
-Font family: Roboto;
-Font style: Regular;
-Font size: 16px;
-Line height: 24px;
-Line height: 128%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 2%;
-Fill Color Style: SLATE;
-Fill: Solid;
-color:#434455;
-
 }
-.solutions
+.web-logo
 {
-        position: absolute;
-        width: 496px;
-        height: 120px;
-        left: 472px;
-        top: 260px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 60px;
-                
-        
-        text-align: center;
-        letter-spacing: 0.02em;
-        
-          
-        color: #FFFFFF;
+Font family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+
 }
-.button
+.studio-dark
 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-        
-                
-        width: 169px;
-        height: 56px;
-        left: 20px;
-        top: 20px;
-        
-        background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-
+   color: #2E2F42
 }
-.button:hover,
-.button:focus
-{
-        
-        position: absolute;
-
-        background-color: #404BBF;
-        
- 
-}
-.settings-order
-{
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        
-        
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        
-        color: #FFFFFF;
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-}
-
-.section-hero
-{
-       
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 72px;
-        
-        background: #2E2F42;
-}
-
-
-
 /*
 ==================
 Hero styless
 ==================
 */
-.overview
-
-{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #2E2F42;
-}
 
 
-.made {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        line-height: 1.11 capitalize;
-        color: #2E2F42;
-}
 
-.team {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        color: #2E2F42;
-}
-
-.name {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #2E2F42;
-}
-
-.profession {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #434455;
-
-}
 
 
 /*
@@ -225,184 +62,13 @@ section
 ==================
 */
 
-.style-color:hover,
-.style-color:focus
-{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 12px 24px;
-        
-        width: 69px;
-        height: 48px;
-        
-        background: #404BBF;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-}
-.Web-Site:hover,
-.Web-Site:focus
-{
-        box-sizing: border-box;
-        
-         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 24px;
-        
-        width: 116px;
-        height: 48px;
-        
-        background: #F4F4FD;
-               
-        
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        
-           
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
-.Apppp:hover,
-.Apppp:focus
-{
-        box-sizing: border-box;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 24px;
-        
-        width: 78px;
-        height: 48px;
-        
-        
-        background: #F4F4FD;
-       
-        
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        
-       
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-}
-.Design:hover,
-.Design:focus
-{
 
-        box-sizing: border-box;
-        
-        
-         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 24px;
-        
-        width: 101px;
-        height: 48px;
-        
-        
-        background: #F4F4FD;
-                
-        
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        
-          
-        flex: none;
-        order: 3;
-        flex-grow: 0;
-}
-.Marketing:hover,
-.Marketing:focus
-{
-
-        box-sizing: border-box;
-        
-
-         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 24px;
-        
-        width: 126px;
-        height: 48px;
-        
-        background: #F4F4FD;
-                
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        
-        flex: none;
-        order: 4;
-        flex-grow: 0;
-
-}
-.storis
-{
-        width: 290px;
-        height: 24px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-              
-        letter-spacing: 0.02em;
-        
-        color: #2E2F42;
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-}
-.discraibe
-{
-        width: 75px;
-        height: 24px;
-        
-         font-family: 'Roboto';
-         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        
-        letter-spacing: 0.02em;
-
-        color: #434455;
-        
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
 /*
 ==================
 section portfolio
 ==================
 */
-.footer {
-        position: absolute;
-        background: #2E2F42;
 
-}
-
-.Increase {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #F4F4FD;
-}
 /*
 ==================
 footer section
