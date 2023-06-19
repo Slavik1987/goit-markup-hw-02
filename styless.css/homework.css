@@ -14,11 +14,8 @@ Common styless
 {
         text-decoration: none;
 }
-.address
-{
-        font-style: normal;
-}
-.link
+
+.link 
 {
         text-decoration: none;
 }
@@ -30,7 +27,10 @@ Common styless
 
 .body
 {
-        
+        font-family: Roboto , sans-serif ;
+        color: #434455;
+        background-color: #FFFFFF;
+
 
 }
 
@@ -104,6 +104,10 @@ Common styless
 
 
         color:#434455;
+}
+.address
+{
+        font-style: normal
 }
 
 */=====================================header*/
