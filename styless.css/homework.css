@@ -18,9 +18,9 @@ Common styless
 {
         font-style: normal;
 }
-.list
+.link
 {
-        list-style: none;
+        text-decoration: none;
 }
 .made{
         color: #2e2f42;
@@ -32,6 +32,28 @@ Common styless
 {
         
 
+}
+
+.li-studio:hover,
+.li-studio:focus,
+.li-portfolio:hover,
+.li-portfolio:focus,
+.li-contacts:hover,
+.li-contacts:focus
+{
+        color: #404bbf;
+}
+
+.li-studio,
+.li-portfolio,
+.li-contacts
+{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+        color: #2e2f42;
 }
 
 
