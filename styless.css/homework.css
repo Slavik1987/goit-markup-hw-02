@@ -22,6 +22,9 @@ Common styless
 {
         list-style: none;
 }
+.made{
+        color: #2e2f42;
+}
 
 }
 
@@ -85,7 +88,7 @@ Common styless
 
 .button-order
 {
-        color: #ffffff;
+        color:#ffffff;
 }
 .button
 {
@@ -95,6 +98,7 @@ Common styless
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        color:#ffffff;
 
 
         background-color: #4D5AE5
@@ -127,4 +131,50 @@ Common styless
 Hero styless
 ==================
 */
+.message
+{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.overview
+{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 
+}
+
+*/===============section2*/
+
+.made
+{
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        
+
+}
+
+
+
+
+
+.team
+{
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+.section-three
+{
+        background-color: #F4F4FD;
+}
