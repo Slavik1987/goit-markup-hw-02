@@ -53,7 +53,13 @@ Common styless
 
 .studio-dark
 {
+        color: #f4f4fd;
         color:var(--color1);
+}
+.logo:hover,
+.logo:focus
+{
+        color: var(--color4);
 }
 
 .logo
@@ -169,7 +175,9 @@ Hero styless
 
 }
 
-*/===============section2*/
+
+
+
 
 
 
@@ -185,7 +193,7 @@ Hero styless
 {
         color:var(--color4);
 }
-.
+
 .what-are-we
 {
         font-size: 36px;
@@ -193,11 +201,11 @@ Hero styless
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2e2f42;
+        color:var(--color1);
 
 
 }
-.Increase
+.footer-incris
 {
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -211,6 +219,11 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--color1);
+}
+
+.section-three
+{
+        background-color: #F4F4FD;
 }
 .list-tool
 {
@@ -240,23 +253,31 @@ Hero styless
 
 
 }
-
+.storis:hover,
+.stories:focus
+{
+        color:var(--color4);
+}
 .storis
 {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color:#2e2f42;
+        color:var(--color1);
 
+
+}
+.link-alt
+{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5
+        letter-spacing: 0.02em;
 
 }
 
 .button-all:focus,
-{
-        color: #FFFFF;
-        background-color: #404BBF;
-}
 .button-all:hover
 {
         color:#FFFFFF;
@@ -277,7 +298,7 @@ Hero styless
        letter-spacing: 0.04em;
        cursor: pointer;
 
-       color: #4d5ae5;
-       background-color: #F4F4FD;
+       color:var(--color3);
+       background-color:var(--color5);
        
 }
