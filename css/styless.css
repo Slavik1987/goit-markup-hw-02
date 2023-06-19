@@ -158,13 +158,14 @@ Hero styless
         letter-spacing: 0.02em;
         color: #434455;
 }
-.overview
+.overview,
+.name
 {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color:var(--color1);
 
 }
 
@@ -177,22 +178,14 @@ Hero styless
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:#434455;
+        color:var(--color2);
 }
 .name:hover,
 .name:focus
 {
         color:var(--color4);
 }
-.name
-{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color1) ;
-
-}
+.
 .what-are-we
 {
         font-size: 36px;
@@ -217,11 +210,11 @@ Hero styless
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2e2f42;
+        color:var(--color1);
 }
-.section-three
+.list-tool
 {
-        background-color: #F4F4FD;
+        background-color: #FFFFFF;
 }
 
 .profession 
