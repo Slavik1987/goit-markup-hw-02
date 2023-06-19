@@ -3,8 +3,7 @@
 Common styless
 ==================
 */
-:root
-{
+
 .logo
 {
         text-decoration: none;
@@ -20,7 +19,7 @@ Common styless
         text-decoration: none;
 }
 
-}
+
 :root
 {
         --color1:#2e2f42;
@@ -195,7 +194,7 @@ Hero styless
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color:#2e2f42;
+        color: var(--color1) ;
 
 }
 .what-are-we
@@ -249,7 +248,7 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;
-        
+
 
 }
 
