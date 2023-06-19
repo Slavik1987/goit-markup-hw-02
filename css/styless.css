@@ -4,19 +4,12 @@ Common styless
 ==================
 */
 
-.logo
+.logo,
+.list-name,
+.link
 {
         text-decoration: none;
 
-}
-.list-name
-{
-        text-decoration: none;
-}
-
-.link 
-{
-        text-decoration: none;
 }
 
 
@@ -37,19 +30,17 @@ Common styless
 
 }
 
-.li-studio:hover,
-.li-studio:focus,
-.li-portfolio:hover,
-.li-portfolio:focus,
-.li-contacts:hover,
-.li-contacts:focus
+.link-spc:hover,
+.link-spc:focus,
+.link-spc:hover,
+.link-spc:focus,
+.link-spc:hover,
+.link-spc:focus
 {
-        color: #404bbf;
+        color:var(--color1);
 }
 
-.li-studio,
-.li-portfolio,
-.li-contacts
+.link-spc
 {
         font-weight: 500;
         font-size: 16px;
@@ -62,7 +53,7 @@ Common styless
 
 .studio-dark
 {
-        color: #2E2F42;
+        color:var(--color1);
 }
 
 .logo
@@ -73,7 +64,7 @@ Common styless
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color:var(--color3);
 
 }
 .list-name:hover,
@@ -181,12 +172,17 @@ Hero styless
 
 
 
-.profession
+.profession-list
 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;
+}
+.name:hover,
+.name:focus
+{
+        color:var(--color4);
 }
 .name
 {
