@@ -19,10 +19,15 @@ Common styless
 {
         text-decoration: none;
 }
-.made{
-        color: #2e2f42;
-}
 
+}
+:root
+{
+        --color1:#2e2f42;
+        --color2:#434455;
+        --color3:#4d5ae5;
+        --color4:#404bbf;
+        --color5:#F4F4FD;
 }
 
 .body
@@ -30,7 +35,6 @@ Common styless
         font-family: Roboto , sans-serif ;
         color: #434455;
         background-color: #FFFFFF;
-
 
 }
 
@@ -176,6 +180,24 @@ Hero styless
 
 */===============section2*/
 
+
+
+.profession
+{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#434455;
+}
+.name
+{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:#2e2f42;
+
+}
 .what-are-we
 {
         font-size: 36px;
@@ -183,14 +205,16 @@ Hero styless
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        
+        color: #2e2f42;
+
 
 }
-
-
-
-
-
+.Increase
+{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;;
+}
 .team
 {
         font-size: 36px;
@@ -203,4 +227,69 @@ Hero styless
 .section-three
 {
         background-color: #F4F4FD;
+}
+
+.profession 
+{
+        background-color: #FFFFFF;
+}
+
+
+.footer
+{
+        background-color:#2e2f42;
+}
+
+
+*/=====portfolio=====*/
+
+.discraibe
+{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#434455;
+        
+
+}
+
+.storis
+{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:#2e2f42;
+
+
+}
+
+.button-all:focus,
+{
+        color: #FFFFF;
+        background-color: #404BBF;
+}
+.button-all:hover
+{
+        color:#FFFFFF;
+        background-color: #404BBF;
+        
+}
+
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing
+{
+       font-family: Roboto, sans-serif;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.04em;
+       cursor: pointer;
+
+       color: #4d5ae5;
+       background-color: #F4F4FD;
+       
 }
