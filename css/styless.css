@@ -34,11 +34,15 @@ Common styless
 .link-spc:hover,
 .link-spc:focus
 {
+        color:var(--color4);
+}
+
+.link-spc
+{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #404bbf;
 
         color:var(--color1);
 }
@@ -224,7 +228,7 @@ Hero styless
 {
         background-color: #F4F4FD;
 }
-.list-img
+.peoplefoto
 {
         background-color: #FFFFFF;
 }
