@@ -74,19 +74,19 @@ Common styless
         color:var(--color3);
 
 }
-.list-name:hover,
-.list-name:focus
+.li-studio:hover,
+.li-studio:focus
 {
-        color: #404bbf;
+        color:var(--color4);
 
 }
-.list-name
+.li-studio
 {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:#2e2f42;
+        color:var(--color1);
 
 }
 .list
