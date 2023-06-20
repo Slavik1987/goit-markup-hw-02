@@ -50,12 +50,16 @@ Common styless
         color: #2e2f42;
 }
 
-
+.studio-wight
+{
+        color: var(--color5);
+}
 .studio-dark
 {
-        color: #f4f4fd;
+        
         color:var(--color1);
 }
+
 .logo:hover,
 .logo:focus
 {
