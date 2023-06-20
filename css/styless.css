@@ -246,10 +246,10 @@ Hero styless
 .discraibe
 {
         font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:#434455;
+        line-height:1.5;
+        letter-spacing:0.02em;
 
+        color:var{--color2:};
 
 }
 .storis:hover,
@@ -261,9 +261,9 @@ Hero styless
 {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        color:var(--color2);
+        color:var(--color1);
 
 
 }
@@ -277,13 +277,25 @@ Hero styless
 }
 
 .button-all:focus,
-.button-all:hover
+.button-all:hover 
 {
-        color:#FFFFFF;
-        color:var(--color3);
-       
-        
+        color: var(--color3);
+        background-color: var(--color5);
+
 }
+
+.button-web:hover,
+.button-app:hover,
+.button-design:hover,
+.button-marketing:hover,
+.button-web:focus,
+.button-app:focus,
+.button-design:focus,
+.button-marketing:focus
+{
+        color: #FFFFFF;
+}
+
 
 .button-all,
 .button-web,
@@ -298,7 +310,5 @@ Hero styless
        letter-spacing: 0.04em;
        cursor: pointer;
 
-       color:var(--color3);
-       background-color: var(--color5);
        
 }
