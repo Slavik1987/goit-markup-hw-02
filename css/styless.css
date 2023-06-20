@@ -228,7 +228,7 @@ Hero styless
 {
         background-color: #F4F4FD;
 }
-.peoplefoto
+.fotopeople
 {
         background-color: #FFFFFF;
 }
@@ -280,6 +280,17 @@ Hero styless
 
 }
 
+.button-web:hover,
+.button-web:focus,
+.button-app:hover,
+.button-app:focus,
+.button-design:hover,
+.button-design:focus,
+.button-marketing:hover,
+.button-marketing:focus
+{
+        color:#FFFFFF;
+}
 .button-all:focus,
 .button-all:hover 
 {
@@ -287,25 +298,12 @@ Hero styless
         background-color: var(--color5);
 
 }
-
-.button-web:hover,
-.button-app:hover,
-.button-design:hover,
-.button-marketing:hover,
-.button-web:focus,
-.button-app:focus,
-.button-design:focus,
-.button-marketing:focus
-{
-        color: #FFFFFF;
-}
-
-
-.button-all,
 .button-web,
 .button-app,
 .button-design,
-.button-marketing
+.button-marketing,
+.button-all,
+
 {
        font-family: Roboto, sans-serif;
        font-weight: 500;
@@ -313,6 +311,5 @@ Hero styless
        line-height: 1.5;
        letter-spacing: 0.04em;
        cursor: pointer;
-
        
 }
