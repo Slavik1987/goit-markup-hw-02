@@ -203,8 +203,10 @@ Hero styless
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--color1);
-
-
+}
+.section-two 
+{
+        background-color: #FFFFFF;
 }
 .footer-incris
 {
