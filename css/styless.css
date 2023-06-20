@@ -263,9 +263,9 @@ Hero styless
 {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color:var(--color1);
+        color:var(--color2);
 
 
 }
@@ -274,7 +274,7 @@ Hero styless
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5
-        letter-spacing: 0.02em;
+        letter-spacing:0.02em;
 
 }
 
@@ -282,7 +282,8 @@ Hero styless
 .button-all:hover
 {
         color:#FFFFFF;
-        background-color: #404BBF;
+        color:var(--color3);
+       
         
 }
 
@@ -300,6 +301,6 @@ Hero styless
        cursor: pointer;
 
        color:var(--color3);
-       background-color:var(--color5);
+       background-color: var(--color5);
        
 }
