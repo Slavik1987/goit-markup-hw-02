@@ -253,13 +253,13 @@ Hero styless
         line-height:1.5;
         letter-spacing:0.02em;
 
-        color:var{--color2:};
+        color:var(--color2)
 
 }
 .storis:hover,
-.stories:focus
+.stories:focus 
 {
-        color:var(--color4);
+        color: var(--color4);
 }
 .storis
 {
