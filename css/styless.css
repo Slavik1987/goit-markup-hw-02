@@ -32,12 +32,9 @@ Common styless
 
 .link-spc:hover,
 .link-spc:focus,
-.link-spc:hover,
-.link-spc:focus,
-.link-spc:hover,
-.link-spc:focus
 {
-        color:var(--color1);
+
+        color:var(---color4);
 }
 
 .link-spc
@@ -47,7 +44,7 @@ Common styless
         line-height: 1.5;
         letter-spacing: 0.02em;
 
-        color: #2e2f42;
+        color:var(--color1);
 }
 
 .studio-wight
