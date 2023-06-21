@@ -263,8 +263,6 @@ Hero styless
 {
         color:#FFFFFF;
 }
-
-
 .button-zero
 {
         font-family: Roboto, sans-serif;
@@ -273,6 +271,7 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        
         color: var(--color3);
         background-color: var(--color5);
 
