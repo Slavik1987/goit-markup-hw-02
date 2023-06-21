@@ -169,6 +169,10 @@ Hero styless
         color:var(--color1);
 
 }
+.li-fotopeople
+{
+        background-color: #FFFFFF;
+}
 .profession-list
 {
         font-size: 16px;
@@ -253,25 +257,15 @@ Hero styless
         line-height: 1.5;
 }
 
-.button-all:hover,
-.button-all:focus,
-.button-web:hover,
-.button-web:focus,
-.button-app:hover,
-.button-app:focus,
-.button-design:hover,
-.button-design:focus,
-.button-marketing:hover,
-.button-marketing:focus
+
+.button-zero:hover,
+.button-zero:focus
 {
         color:#FFFFFF;
 }
 
-.button-web,
-.button-app,
-.button-design,
-.button-marketing,
-.button-all
+
+.button-zero
 {
         font-family: Roboto, sans-serif;
         font-weight: 500;
@@ -281,6 +275,8 @@ Hero styless
         cursor: pointer;
         color: var(--color3);
         background-color: var(--color5);
+
  }
+ 
        
 
