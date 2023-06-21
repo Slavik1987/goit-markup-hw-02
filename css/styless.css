@@ -242,7 +242,7 @@ Hero styless
 {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.5;
+        line-height:1.2;
         letter-spacing: 0.02em;
         color:var(--color1);
 }
@@ -252,11 +252,7 @@ Hero styless
         font-size: 16px;
         line-height: 1.5;
 }
-.button-all 
-{
-        color: var(--color3);
-        background-color: var(--color5);
-}
+
 .button-all:hover,
 .button-all:focus,
 .button-web:hover,
@@ -274,18 +270,26 @@ Hero styless
 .button-web,
 .button-app,
 .button-design,
-.button-marketing,
-.button-all,
+.button-marketing
 {
-        
         font-family:Roboto,sans-serif;        
         font-weight:500;
         font-size:16px;
         line-height:1.5;
         letter-spacing:0.04em;
-        cursor: pointer;
+        cursor:pointer;
 }
 
-       
+.button-all
+{
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        color: var(--color3);
+        background-color: var(--color5);
+ }
        
 
