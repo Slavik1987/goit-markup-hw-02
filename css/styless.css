@@ -65,7 +65,7 @@ Common styless
 
 .logo
 {
-        font-family: Raleway, sans-serif;
+        font-family: Raleway , sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -87,7 +87,6 @@ Common styless
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color1);
-
 }
 .list
 {
@@ -103,19 +102,27 @@ Common styless
         line-height: 1.5;
         letter-spacing: 0.02em;
 
-
         color:#434455;
 }
 .address
 {
-        font-style: normal
+        font-style: normal;
 }
 
-*/=====================================header*/
+/*===================================header*/
 
 .button-order
 {
         color:#ffffff;
+}
+.button:hover 
+{
+        background-color: #404BBF;
+}
+
+.button:focus 
+{
+        background-color: #404BBF;
 }
 .button
 {
@@ -126,33 +133,20 @@ Common styless
         letter-spacing: 0.04em;
         cursor: pointer;
         color:#ffffff;
-
-
-        background-color: #4D5AE5
+        background-color: #4D5AE5;
 }
-.button:hover
+.solutions 
 {
-        background-color: #404BBF;
-}
-.button:focus
-{
-        background-color: #404BBF;
-
-}
-.solutions {
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color:#ffffff;
-
 }
 .section-hero
 {
         background-color:#2e2f42 ;
-       
 }
-
 /*
 ==================
 Hero styless
@@ -175,13 +169,6 @@ Hero styless
         color:var(--color1);
 
 }
-
-
-
-
-
-
-
 .profession-list
 {
         font-size: 16px;
@@ -194,7 +181,6 @@ Hero styless
 {
         color:var(--color4);
 }
-
 .what-are-we
 {
         font-size: 36px;
@@ -223,7 +209,6 @@ Hero styless
         text-transform: capitalize;
         color:var(--color1);
 }
-
 .section-three
 {
         background-color: #F4F4FD;
@@ -232,29 +217,21 @@ Hero styless
 {
         background-color: #FFFFFF;
 }
-
 .profession 
 {
         background-color: #FFFFFF;
 }
-
-
 .footer
 {
         background-color:#2e2f42;
 }
-
-
-*/=====portfolio=====*/
-
+/*=====portfolio=====*/
 .discraibe
 {
         font-size: 16px;
         line-height:1.5;
         letter-spacing:0.02em;
-
         color:var(--color2)
-
 }
 .storis:hover,
 .stories:focus 
@@ -268,18 +245,20 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--color1);
-
-
 }
 .link-alt
 {
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5
-        letter-spacing:0.02em;
-
+        line-height: 1.5;
 }
-
+.button-all 
+{
+        color: var(--color3);
+        background-color: var(--color5);
+}
+.button-all:hover,
+.button-all:focus,
 .button-web:hover,
 .button-web:focus,
 .button-app:hover,
@@ -291,25 +270,22 @@ Hero styless
 {
         color:#FFFFFF;
 }
-.button-all:focus,
-.button-all:hover 
-{
-        color: var(--color3);
-        background-color: var(--color5);
 
-}
 .button-web,
 .button-app,
 .button-design,
 .button-marketing,
 .button-all,
-
 {
-       font-family: Roboto, sans-serif;
-       font-weight: 500;
-       font-size: 16px;
-       line-height: 1.5;
-       letter-spacing: 0.04em;
-       cursor: pointer;
-       
+        
+        font-family:Roboto,sans-serif;        
+        font-weight:500;
+        font-size:16px;
+        line-height:1.5;
+        letter-spacing:0.04em;
+        cursor: pointer;
 }
+
+       
+       
+
