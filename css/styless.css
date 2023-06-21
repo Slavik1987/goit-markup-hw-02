@@ -167,7 +167,6 @@ Hero styless
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--color1);
-
 }
 .li-fotopeople
 {
@@ -271,7 +270,7 @@ Hero styless
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-        
+
         color: var(--color3);
         background-color: var(--color5);
 
