@@ -242,7 +242,7 @@ Hero styless
 {
         font-weight: 500;
         font-size: 20px;
-        line-height:1.2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--color1);
 }
@@ -270,16 +270,7 @@ Hero styless
 .button-web,
 .button-app,
 .button-design,
-.button-marketing
-{
-        font-family:Roboto,sans-serif;        
-        font-weight:500;
-        font-size:16px;
-        line-height:1.5;
-        letter-spacing:0.04em;
-        cursor:pointer;
-}
-
+.button-marketing,
 .button-all
 {
         font-family: Roboto, sans-serif;
