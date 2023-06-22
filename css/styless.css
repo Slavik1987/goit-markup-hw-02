@@ -3,24 +3,50 @@
 Common styless
 ==================
 */
+:root {
+        --color1: #2e2f42;
+        --color2: #434455;
+        --color3: #4d5ae5;
+        --color4: #404bbf;
+        --color5: #F4F4FD;
+}
 
+
+
+/*========reset=======*/
 .logo,
 .list-name,
 .link
 {
         text-decoration: none;
-
 }
-
-
-:root
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
 {
-        --color1:#2e2f42;
-        --color2:#434455;
-        --color3:#4d5ae5;
-        --color4:#404bbf;
-        --color5:#F4F4FD;
+        margin:0;
 }
+ul,
+ol
+{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.container
+{
+        width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+}
+
+
 
 .body
 {
@@ -43,8 +69,12 @@ Common styless
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-
         color:var(--color1);
+        
+        
+        
+
+
 }
 
 .studio-wight
@@ -72,7 +102,27 @@ Common styless
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--color3);
+}
+.link-list
+{
+       display: flex;
+       align-items: center;
+}
+.contacts
+{
+        display: flex;
+        align-items: center;
+}
+.header-nav
+{
+        display: flex;
+        align-items: center;
+        
 
+}
+.header-container
+{
+        display: flex;
 }
 .li-studio:hover,
 .li-studio:focus
@@ -101,8 +151,8 @@ Common styless
 {
         line-height: 1.5;
         letter-spacing: 0.02em;
-
         color:#434455;
+       
 }
 .address
 {
